@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-image: url("../images/Landscape.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        background-image: url("../images/dawn.png");
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .container {
+        background-image: url("../images/maxresdefault.jpg");
+    }
+}
